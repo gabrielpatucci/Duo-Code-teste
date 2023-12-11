@@ -11,7 +11,7 @@ body {
 header {
     
     margin: auto;
-    width: 90%;
+    width: 100%;
     padding: 60px 0;
     position: fixed;
 }
@@ -26,9 +26,14 @@ header.rolagem {
     
     
 }
+link-item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
 .container {
     margin: auto;
-    width: 1200px;
+    width: 100%;
 }
 .flex {
     display: flex;
@@ -43,6 +48,7 @@ header.rolagem {
     font-weight: 1000;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Mulish', sans-serif;
+    margin-left: 50px;
 }
 
 .logo:hover {
@@ -66,6 +72,7 @@ header.rolagem {
 .navitens>li>a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
 }
 
 .navitens>li>a:hover {
@@ -75,7 +82,7 @@ header.rolagem {
 .imagemtopo {
 
     background-color: #27283E;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 .image{
     width: 99vw
@@ -90,7 +97,6 @@ header.rolagem {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    width: 100%;
     background: rgb(68,68,96);
     background: linear-gradient(38deg, rgba(68,68,96,0.4654236694677871) 0%, rgba(8,0,42,1) 100%);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -122,112 +128,4 @@ header.rolagem {
     align-items: center;
 
 
-}
-
-.main-login {
-    width: 1300px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.left-login {
-    margin-top: 250px;
-    width: 35vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.left-login>h1 {
-    color: #0a1dc2;
-    font-family: 'Mulish', sans-serif;
-    font-size: 40px;
-
-    justify-content: center;
-}
-
-
-.left-login-image {
-    width: 800px;
-}
-
-.right-login {
-    width: 60vw;
-    height: 100vh;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.card-login {
-    width: 80%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px 40px;
-    background-color: #27283E;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
-
-.card-login>h1 {
-    color: #0a1dc2;
-    font-weight: 800;
-    margin: 0;
-    font-family: 'Mulish', sans-serif;
-}
-
-.textfield {
-    font-family: 'Mulish', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 20px 0px;
-}
-
-.textfield>input {
-    font-family: 'Mulish', sans-serif;
-    width: 350px;
-    border: none;
-    border-radius: 10px;
-    padding: 15px;
-    background-color: #0a1dc2;
-    color: white;
-    font-size: 12pt;
-    margin-top: 5px;
-    box-sizing: border-box;
-}
-
-.textfield>input::placeholder {
-    color: #f0ffff94;
-}
-
-.btn-login {
-    width: 50%;
-    padding: 10px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 9px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #0a1dc2;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-}
-
-.btn-login:hover {
-    background-color: #0a1dc2;
-    color: white;
 }
