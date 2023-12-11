@@ -79,7 +79,7 @@ header.rolagem {
     background-color: #27283E;
 }
 .image{
-    background: url(/index/purple-mountain-landscape.jpg);
+    background: url(purple-mountain-landscape.jpg);
     width: 99vw;
     height: 120vh;
     background-size: cover;
