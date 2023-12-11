@@ -26,11 +26,7 @@ header.rolagem {
     
     
 }
-link-item{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-}
+
 .container {
     margin: auto;
     width: 100%;
@@ -80,37 +76,151 @@ link-item{
 }
 
 .imagemtopo {
-
     background-color: #27283E;
-    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 .image{
-    width: 99vw
+    background: url(/index/purple-mountain-landscape.jpg);
+    width: 99vw;
+    height: 120vh;
+    background-size: cover;
+    color: #3c0c54;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    text-align: center;
+    
 }
+.image>h2{
+    font-size: 70px;
+    text-align: center;
+}
+.image>hr{
+    width: 40%;
+    height: 2px;
+    border: 2px solid #3c0c54;
+}
+
 .lista-nav {
     margin: 0px 15px;
 }
 
 
-.nada {
+.main-cont {
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column-reverse;
     background: rgb(68,68,96);
     background: linear-gradient(38deg, rgba(68,68,96,0.4654236694677871) 0%, rgba(8,0,42,1) 100%);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .item{
-    background: #f0ffff25;
-    backdrop-filter: blur(10px);
-    width: 250px;
-    height: 300px;
-    margin: 100px;
+    background: rgba(108, 41, 175, 0.317);
+    width: 320px;
+    height: 350px;
     border-radius: 15%;
-    align-items: center;
+    margin: 30px;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
+
+.item:hover{
+    box-shadow: rgba(111, 0, 255, 0.15) 0px 48px 100px 0px;
+}
+.link-item{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+.link-item>hr{
+    width: 80%;
+    color: rgb(175, 90, 255);
+}
+.link-item:hover{
+    color: rgb(175, 90, 255);
+}
+.subtitle{
+    font-size: 17px;
+    margin-top: 15px;
+    width: 80%;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+.line-item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.right-main-cont{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+left-main-cont{
+    width: 60%;
+}
+.right-main-cont>h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    margin: 5px;
+
+}
+.right-main-cont>p{
+    color: white;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    
+}
+.right-main-cont>h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    margin: 10px;
+}
+.right-main-cont>hr{
+    color: rgb(128, 0, 255);
+    width: 80%;
+    height: 3px;
+    margin: 15px;
+}
+
+
+.line-item2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .image-item{
     max-height: 150px;
     max-width: 100px;
