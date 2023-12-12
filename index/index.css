@@ -244,7 +244,7 @@ left-main-cont{
     display: flex;
     width: 100%;
     height: 600px;
-    background: url(/index/peakpx.jpg);
+    background: url(/peakpx.jpg);
     flex-direction: column;
 }
 .ant-client>h1{
@@ -282,7 +282,7 @@ left-main-cont{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: url(/index/imagemperfil.jpeg);
+    background: url(/imagemperfil.jpeg);
     background-size: cover;
     border: 2px solid white;
 
