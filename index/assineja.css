@@ -1,0 +1,65 @@
+.aj-main-cont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/purple-mountain-landscape.jpg);
+    background-size: cover;
+}
+.aj-assinaturas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 1300px;
+    height: 700px;
+}
+.card-out-assinatura{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-family: 'mulish';
+}
+.card-assinatura{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.069);
+    backdrop-filter: blur(80px);
+    border: 0.5px solid #ffffff4d;
+    border-radius: 20px;
+}
+.card-assinatura>h1{
+    margin-top: 10px;
+}
+.card-assinatura>hr{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.card-assinatura>p{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+}
+.list-card-assinatura{
+    width: 80%;
+    height: 65%;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.151);
+    list-style: none;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+}
+.list-item-assinatura{
+    list-style: none;
+    font-size: 20px;
+}
