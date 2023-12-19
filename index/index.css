@@ -15,77 +15,8 @@ body {
     width: 10px;
     background-color: rgb(255, 0, 170);
 }
-@media (max-width: 500px) {
-    body{
-        width: 100vw;
-    }
-    .image{
-        background: url(purple-mountain-landscape.jpg);
-        width: 100%;
-        height: 120vh;
-        background-size: cover;
-        color: #3c0c54;
-        font-size: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        font-family: 'Bebas Neue', sans-serif;
-        font-weight: 400;
-        text-align: center;
-        text-align: center;
-    }
-    .image>h2{
-        font-size: 5px;
-    }
-    .image>h1{
-        font-size: 10px;
-    }
-    .tudo{
-        width: 100%;
-    }
-    .navitens{
-        display: block;
-        width: 100%;
-        margin: auto;
-    }
-    header{
-        display: none;
-        max-width: 100vw;
-    }
-    .item{
-            background: rgba(108, 41, 175, 0.317);
-            max-width: 100px;
-            max-height: 100px;
-            border-radius: 15%;
-            margin: 10px;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-    }
-    .link-item{
-        color: white;
-        text-decoration: none;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        font-size: 5px;
-        font-family: 'Bebas Neue', sans-serif;
-        
-    }
-    .subtitle{
-        margin-top: 15px;
-        max-height: 100px;
-        font-family: 'Mulish', sans-serif;
-        color: white;
-        font-size: 5px;
-        
-    }
-    .footer{
-        display: none;
-    }
+.button-menu{
+    display: none;
 }
 
 header {
@@ -175,6 +106,7 @@ header.rolagem {
     text-align: center;
     letter-spacing: 3px;
     text-align: center;
+    background-attachment: fixed;
     
 }
 .image>h2{
@@ -435,4 +367,247 @@ left-main-cont{
     list-style: none;
     margin: 10px;
     color: aliceblue;
+}
+@media (max-width: 500px) {
+    body{
+        width: 100vw;
+    }
+    .image{
+        background: url(purple-mountain-landscape.jpg);
+        width: 100%;
+        height: 50vh;
+        background-size: cover;
+        color: #3c0c54;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    .image>h2{
+        font-size: 25px;
+    }
+    .image>h1{
+        font-size: 30px;
+    }
+    .tudo{
+        width: 100%;
+    }
+    .navitens{
+        display: flex;
+
+        margin: 50px;
+        flex-direction: column;
+    }
+    .navitens>li {
+        font-size: 25px;
+        margin: 20px 0;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 550;
+    }
+    nav{
+    
+    }
+    .button-menu {
+        display: block;
+        border: none;
+        background: none;
+        border-top: 3px solid #fff;
+        cursor: pointer;
+        z-index: 1;
+        margin: auto;
+      }
+      
+      .button-menu::after,
+      .button-menu::before {
+        content: " ";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        margin-top: 5px;
+        position: relative;
+        transition: 0.3s;
+      }
+    .flex {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .logo {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: 1000;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Mulish', sans-serif;
+        margin-left: 50px;
+        text-align: center;
+        margin: auto;
+    }
+    header{
+
+        display: flex;
+        max-width: 100%;
+        height: 100px;
+        background-color: #3c0c54;
+        top: 0;
+        right: 0;
+        
+    }
+    header.rolagem {
+        border-radius: 0 30px;
+        margin: auto;
+        background: #0000025;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        backdrop-filter: blur(10px);
+    
+        
+        
+    }
+    .item{
+            background: rgba(108, 41, 175, 0.317);
+            border-radius: 15%;
+            margin: 20px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+    }
+    .link-item{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        font-family: 'Bebas Neue', sans-serif;
+        
+    }
+    .subtitle{
+        margin-top: 15px;
+        max-height: 100px;
+        font-family: 'Mulish', sans-serif;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .footer{
+        display: none;
+    }
+    .right-main-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 80px;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .sub-subtitle{
+        margin-top: 30%;
+        font-size: 25px;
+    }
+    .line-item1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .line-item2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .ant-client{
+        font-family: 'Mulish', sans-serif;
+        display: flex;
+        width: 100%;
+        height: 200px;
+        background: url(/peakpx.jpg);
+        flex-direction: column;
+        align-items: center;
+    }
+    .ant-client>h1{
+        font-size: 30px;
+        font-weight: 800;
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+    .ant-client>hr{
+        width: 50%;
+        margin: 15px auto;
+    }
+    .client{
+        width: 80%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    
+    .client>h1{
+        text-align: center;
+    }
+    .perfil-client{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+        
+    }
+    .img-client{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: url(/imagemperfil.jpeg);
+        background-size: cover;
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+    
+    }
+    .name-client{
+        font-size: 35px;
+        color: white;
+        margin: 15px;
+        font-weight: 800;
+    }
+    .coment-client{
+        width: 95%;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff4b;
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        border: 1px solid #ffffff4b;
+        text-align: center;
+        margin: 30px 0;
+    }
+    
+    
 }
