@@ -15,6 +15,12 @@ body {
     width: 10px;
     background-color: rgb(255, 0, 170);
 }
+.button-menu{
+    display: none;
+}
+#buttonjs{
+    display: none;
+}
 header {
     
     margin: auto;
@@ -408,7 +414,27 @@ left-main-cont{
     nav{
     
     }
-    
+    .button-menu {
+        display: block;
+        border: none;
+        background: none;
+        border-top: 3px solid #fff;
+        cursor: pointer;
+        z-index: 1;
+        margin: auto;
+      }
+      
+    .button-menu::after,
+    .button-menu::before {
+        content: " ";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        margin-top: 5px;
+        position: relative;
+        transition: 0.3s;
+      }
     .flex {
         display: none;
         align-items: center;
