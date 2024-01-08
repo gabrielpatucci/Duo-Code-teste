@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cursos</title>
+    <title>Cursos</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="cursos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
@@ -12,16 +14,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header id="header">
         <div class="container">
-            <div class="flex">
+            <button class="button-menu" onclick="clickMenu()" id="buttonjs"></button>
+            <div class="flex" id="flexjs">
                 <div><a href="index.html" class="logo">Duo|Code</a></div>
+                
                 <nav>
                     <div class="links">
                         <ul class="navitens">
-                            <li class="lista-nav"> <a href="aprender.html">
-                                    <div class="nav-in">Aprender</div>
+                            <li class="lista-nav"> <a href="assineja.html">
+                                    <div class="nav-in">Assine já</div>
                                 </a> </li>
                             <li class="lista-nav"> <a href="cursos.html">
                                     <div class="nav-in">Cursos</div>
@@ -33,10 +38,110 @@
                                     <div class="nav-in">Perfil</div>
                                 </a></li>
                         </ul>
-
+                        
                 </nav>
+                
             </div>
         </div>
-    
+    </header>
+    <main class="main-cursos">
+        
+        <div class="cursos-cont">
+            <div class="main-cursos-text">
+                <h1>Cursos Oferecidos:</h1>
+            </div>
+            <div class="cursos-item">
+                <div class="cursos-item-img">
+                    <img src="/imagens/PYTHON.png" alt="" class="curso-image">
+                </div>
+                <div>
+                    <p class="cursos-item-text">Python é uma linguagem de programação de alto nível, interpretada de script, imperativa,
+                        orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em
+                        1991. Atualmente, possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela
+                        organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem
+                        possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente
+                        especificada. O padrão na pratica é a implementação CPython.</p>
+                </div>
+            </div>
+            <div class="cursos-item">
+                <div class="cursos-item-img">
+                    <img src="/imagens/csharp.png" alt="" class="curso-image">
+                </div>
+                <div>
+                    <p class="cursos-item-text">C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft
+                        como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui
+                        muitas influências de outras linguagens de programação, como Object Pascal e, principalmente,
+                        Java. O código fonte é compilado para Common Intermediate Language (CIL) que é interpretado pela
+                        máquina virtual Common Language Runtime (CLR). C# é uma das linguagens projetadas para funcionar
+                        na Common Language Infrastructure da plataforma .NET Framework.[5]</p>
+                </div>
+            </div>
+            <div class="cursos-item">
+                <div class="cursos-item-img">
+                    <img src="/imagens/java.jpg" alt="" class="curso-image">
+                </div>
+                <div>
+                    <p class="cursos-item-text">Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma
+                        equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi
+                        adquirido pela empresa Oracle Corporation.[3] Diferente das linguagens de programação modernas,
+                        que são compiladas para código nativo, Java é compilada para um bytecode que é interpretado por
+                        uma máquina virtual (Java Virtual Machine, abreviada JVM). A linguagem de programação Java é a
+                        linguagem convencional da Plataforma Java, mas não é a sua única linguagem. A J2ME é utilizada
+                        em jogos de computador, celular, calculadoras, ou até mesmo o rádio do carro.</p>
+                </div>
+            </div>
+            <div class="cursos-item">
+                <div class="cursos-item-img">
+                    <img src="/imagens/javascript.png" alt="" class="curso-image">
+                </div>
+                <div>
+                    <p class="cursos-item-text">JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada
+                        estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos,
+                        orientado a objeto, imperativo e funcional).[2][3] Juntamente com HTML e CSS, o JavaScript é uma
+                        das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas
+                        e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e
+                        todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.[4] É
+                        atualmente a principal linguagem para programação client-side em navegadores web. É também
+                        bastante utilizada do lado do servidor através de ambientes como o node.js.</p>
+                </div>
+            </div>
+            <div class="cursos-item">
+                <div class="cursos-item-img">
+                    <img src="/imagens/php.jpg" alt="" class="curso-image">
+                </div>
+                <div>
+                    <p class="cursos-item-text">PHP (um acrônimo recursivo para "PHP: Hypertext Preprocessor", originalmente Personal Home Page)
+                        é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de
+                        aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World
+                        Wide Web.[2] Figura entre as primeiras linguagens passíveis de inserção em documentos HTML,
+                        dispensando em muitos casos o uso de arquivos externos para eventuais processamentos de dados. O
+                        código é interpretado no lado do servidor pelo módulo PHP, que também gera a página web a ser
+                        visualizada no lado do cliente. A linguagem evoluiu, passou a oferecer funcionalidades em linha
+                        de comando, e além disso, ganhou características adicionais, que possibilitaram usos adicionais
+                        do PHP, não relacionados a web sites. É possível instalar o PHP na maioria dos sistemas
+                        operacionais, gratuitamente. Concorrente direto da tecnologia ASP pertencente à Microsoft, o PHP
+                        é utilizado em aplicações como o MediaWiki, Facebook, Drupal, Joomla!, WordPress, Magento e o
+                        Oscommerce.</p>
+                </div>
+            </div>
+            <div class="cursos-item">
+                <div class="cursos-item-img">
+                    <img src="/imagens/ruby.jpg" alt="" class="curso-image">
+                </div>
+                <div>
+                    <p class="cursos-item-text">Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com
+                        gerenciamento de memória automático, originalmente planejada e desenvolvida no Japão em 1995,
+                        por Yukihiro "Matz" Matsumoto, para ser usada como linguagem de script. Matsumoto queria
+                        desenvolver uma linguagem de script que fosse mais poderosa do que Perl, e mais orientada a
+                        objetos do que Python.[5] Ruby suporta programação funcional, orientada a objetos, imperativa e
+                        reflexiva. Foi inspirada principalmente por Python, Perl, Smalltalk, Eiffel, Ada e Lisp, sendo
+                        muito similar em vários aspectos a Python.[6] Ruby está entre as 10 linguagens mais populares,
+                        de acordo com uma pesquisa conduzida pela RedMonk desde 2018.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="menu.js"></script>
 </body>
+
 </html>

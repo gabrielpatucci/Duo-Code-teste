@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 body {
+    
     background-color: rgb(43, 43, 43);
 }
 ::-webkit-scrollbar{
@@ -326,7 +327,8 @@ left-main-cont{
 .footer{
     width: 100%;
     height: 300px;
-    background-color: #323232;
+    background: rgb(68,68,96);
+    background: linear-gradient(38deg, rgba(68,68,96,0.4654236694677871) 0%, rgba(8,0,42,1) 100%);
     color: white;
     text-decoration: none;
     list-style: none;
@@ -353,11 +355,13 @@ left-main-cont{
 }
 
 .end-footer{
+    text-decoration: none;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
 }
 .link-end-footer{
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     

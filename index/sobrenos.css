@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: url(/purple-mountain-landscape.jpg);
+    background-size: cover;
+}
+.main-sobrenos{
+    display: flex;
+    background-color: blueviolet;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;     
+    margin: 350px auto 0 auto;
+    width: 1300px;
+    padding: 50px;
+    border-radius: 50px;
+    font-family: 'mulish';
+    font-size: 20px;
+    
+}
+@media (max-width: 500px) {
+    body{
+        background: url(/purple-mountain-landscape.jpg);
+        background-size: none;
+    }
+    .main-sobrenos{
+        width: 90%;
+    }
+}

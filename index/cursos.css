@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.main-cursos{
+ background-image: url(/purple-mountain-landscape.jpg);
+ background-attachment: fixed;
+ 
+
+}
+.cursos-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    background: rgba(108, 41, 175, 0.317);
+    width: 1300px;
+    border-radius: 25px;
+
+}
+.cursos-cont{
+    margin-top: 300px;
+
+
+}
+.cursos-item-img{
+    
+}
+.curso-image{
+    max-width: 600px;
+    border-radius: 25px 0 0 25px ;
+}
+.cursos-item-text{
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    font-family: 'mulish';
+}
+.main-cursos-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    font-size: 23px;
+    font-family: 'mulish';
+    color: white;
+}
+@media (max-width: 500px) {
+    .cursos-item{
+        width: 100%;
+        flex-direction: column;
+        margin: 70px auto;
+    }
+    .curso-image{
+        max-width: 400px;
+    }
+    .cursos-item-text{
+        font-size: 20px;
+        margin: 50px;
+        
+    }
+    .cursos-cont{
+        margin-top: 150px;
+    
+    }
+    
+}

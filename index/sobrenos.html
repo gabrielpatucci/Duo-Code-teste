@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="sobrenos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
@@ -15,13 +16,15 @@
 <body>
     <header id="header">
         <div class="container">
-            <div class="flex">
+            <button class="button-menu" onclick="clickMenu()" id="buttonjs"></button>
+            <div class="flex" id="flexjs">
                 <div><a href="index.html" class="logo">Duo|Code</a></div>
+                
                 <nav>
                     <div class="links">
                         <ul class="navitens">
-                            <li class="lista-nav"> <a href="aprender.html">
-                                    <div class="nav-in">Aprender</div>
+                            <li class="lista-nav"> <a href="assineja.html">
+                                    <div class="nav-in">Assine já</div>
                                 </a> </li>
                             <li class="lista-nav"> <a href="cursos.html">
                                     <div class="nav-in">Cursos</div>
@@ -33,10 +36,23 @@
                                     <div class="nav-in">Perfil</div>
                                 </a></li>
                         </ul>
-
+                        
                 </nav>
+                
             </div>
         </div>
     </header>
+    <main>
+        <div class="main-sobrenos">
+            <h1>TRABALHO DE WEB DESIGN</h1>
+            <br>
+            <h2>1° Período de TADS</h2>
+            <br>
+            <p>Victor Gabriel Patucci Alves</p>
+            <p>Maria Clara</p>
+            <p>Giovanna</p>
+        </div>
+    </main>
+    <script src="menu.js"></script>
 </body>
 </html>

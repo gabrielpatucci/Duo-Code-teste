@@ -130,3 +130,15 @@
     background-color: rgb(108, 41, 175);
     color: white;
 }
+@media (max-width: 500px) {
+    .left-login{
+        display: none;
+    }
+    .right-login{
+        width: 100vw;
+        height: 100vh;
+    }
+    .main-login{
+        background-size: auto;
+    }
+}
