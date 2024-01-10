@@ -136,9 +136,13 @@
     }
     .right-login{
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
+        margin-top: 0;
     }
     .main-login{
         background-size: auto;
+    }
+    .textfield>input {
+        width: 100%;
     }
 }
